@@ -1,11 +1,10 @@
 import React from 'react';
 import Section from './Section';
-import { passionsSection, passions } from '../data/profile';
 
-const PassionsSection = () => (
-  <Section id="passions" title={passionsSection.title} subtitle={passionsSection.subtitle}>
+const PassionsSection = ({ data }) => (
+  <Section id="passions" title={data.passionsSection.title} subtitle={data.passionsSection.subtitle}>
     <div className="grid three">
-      {passions.map((passion) => (
+      {data.passions.map((passion) => (
         <div className="card passion" key={passion.title}>
           <h3>{passion.title}</h3>
           <p className="muted">{passion.description}</p>

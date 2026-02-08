@@ -1,12 +1,11 @@
 import React from 'react';
 import Section from './Section';
-import { contactSection, contacts } from '../data/profile';
 import TechIcon from './TechIcon';
 
-const ContactSection = () => (
-  <Section id="contact" title={contactSection.title} subtitle={contactSection.subtitle}>
+const ContactSection = ({ data }) => (
+  <Section id="contact" title={data.contactSection.title} subtitle={data.contactSection.subtitle}>
     <div className="grid three contact-grid">
-      {contacts.map((contact) => (
+      {data.contacts.map((contact) => (
         <div className="card contact-card" key={contact.label}>
           <p className="muted">{contact.label}</p>
           <a href={contact.href}>

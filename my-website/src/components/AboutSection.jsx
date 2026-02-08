@@ -1,15 +1,14 @@
 import React, { Fragment } from 'react';
 import Section from './Section';
-import { about } from '../data/profile';
 
-const AboutSection = () => (
-  <Section id="about" title={about.title} subtitle={about.subtitle}>
+const AboutSection = ({ data }) => (
+  <Section id="about" title={data.about.title} subtitle={data.about.subtitle}>
     <div className="card">
       <p>
-        {about.paragraphs.map((paragraph, index) => (
+        {data.about.paragraphs.map((paragraph, index) => (
           <Fragment key={paragraph}>
             {paragraph}
-            {index < about.paragraphs.length - 1 ? <br /> : null}
+            {index < data.about.paragraphs.length - 1 ? <br /> : null}
           </Fragment>
         ))}
       </p>

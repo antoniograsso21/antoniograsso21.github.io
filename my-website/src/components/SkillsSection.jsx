@@ -1,12 +1,11 @@
 import React from 'react';
 import Section from './Section';
-import { skillsSection, skillGroups } from '../data/profile';
 import TechIcon from './TechIcon';
 
-const SkillsSection = () => (
-  <Section id="skills" title={skillsSection.title} subtitle={skillsSection.subtitle}>
+const SkillsSection = ({ data }) => (
+  <Section id="skills" title={data.skillsSection.title} subtitle={data.skillsSection.subtitle}>
     <div className="grid skills-grid">
-      {skillGroups.map((group) => (
+      {data.skillGroups.map((group) => (
         <div className="card" key={group.title}>
           <h3>{group.title}</h3>
           <div className="chip-row">

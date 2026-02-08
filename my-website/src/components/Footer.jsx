@@ -1,9 +1,8 @@
 import React from 'react';
-import { footerText } from '../data/profile';
 
-const Footer = () => (
+const Footer = ({ text }) => (
   <footer className="footer">
-    <span>{footerText}</span>
+    <span>{text}</span>
   </footer>
 );
 

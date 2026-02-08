@@ -1,10 +1,9 @@
 import React from 'react';
 import Section from './Section';
-import { experienceSection, experiences } from '../data/profile';
 
-const ExperienceSection = () => (
-  <Section id="experience" title={experienceSection.title} subtitle={experienceSection.subtitle}>
-    {experiences.map((experience) => (
+const ExperienceSection = ({ data }) => (
+  <Section id="experience" title={data.experienceSection.title} subtitle={data.experienceSection.subtitle}>
+    {data.experiences.map((experience) => (
       <div className="card" key={experience.title}>
         <div className="role">
           <div>
