@@ -11,24 +11,24 @@ export const content = {
     hero: {
       eyebrow: 'Data Engineer · Software Engineer',
       quickFactsTitle: 'Quick Facts',
-      note: 'Data, codice, visione: dall’osservabilità alle decisioni.',
-      ctaLabel: 'Parliamo',
+      note: 'ETL, microservizi e ML: dai dati alle decisioni',
+      ctaLabel: 'Contattami',
     },
     metrics: [
-      { label: 'Esperienza', value: '6+ anni' },
+      { label: 'Esperienza', value: '5+ anni' },
       { label: 'Settore', value: 'Banking & Data' },
-      { label: 'Focus', value: 'Pipeline & ML' },
+      { label: 'Focus', value: 'Pipeline & Microservices & ML' },
       { label: 'Sede', value: 'Bologna, Italia' },
     ],
     bentoTech: [
-      { title: 'Python', subtitle: 'Data & ML' },
+      { title: 'Python', subtitle: 'ETL, microservices, ML' },
       { title: 'PySpark', subtitle: 'ETL at scale' },
-      { title: 'AWS', subtitle: 'Glue · Lambda · S3' },
+      { title: 'AWS', subtitle: 'Glue · Lambda · S3 · Step Functions · RDS Aurora · DynamoDB · Quicksight · Sagemaker' },
       { title: 'SQL', subtitle: 'Modeling & Query' },
     ],
     about: {
       title: 'About',
-      subtitle: 'Ingegneria dei dati con un’estetica pulita e scelte pragmatiche.',
+      subtitle: 'Qualche informazione su di me',
       paragraphs: [
         'Ho conseguito la laurea magistrale in ingegneria informatica specializzandomi in big data e intelligenza artificiale.',
         'Attualmente lavoro come data engineer nel settore bancario e mi occupo principalmente di pipeline di ETL ed applicazioni software realizzate con i servizi AWS di cloud computing.',
@@ -38,7 +38,7 @@ export const content = {
     },
     experienceSection: {
       title: 'Esperienza',
-      subtitle: 'Dal maggio 2020 al CSE Consorzio Servizi Bancari.',
+      subtitle: 'Il mio percorso lavorativo',
     },
     experiences: [
       {
@@ -69,7 +69,7 @@ export const content = {
     ],
     skillsSection: {
       title: 'Competenze',
-      subtitle: 'Stack tecnico principale e strumenti di lavoro.',
+      subtitle: 'Stack tecnologico principale e strumenti di lavoro.',
     },
     skillGroups: [
       {
@@ -99,25 +99,25 @@ export const content = {
     ],
     passionsSection: {
       title: 'Passioni',
-      subtitle: 'Il lato personale che arricchisce il mio modo di progettare.',
+      subtitle: "Oltre l'informatica",
     },
     passions: [
       {
         title: 'Fotografia',
-        description: 'Studio luce e composizione: qualità dei dettagli prima della quantità.',
+        //description: 'Studio luce e composizione: qualità dei dettagli prima della quantità.',
       },
       {
         title: 'Astronomia',
-        description: 'Dati, orbite, scale: un invito costante a pensare in grande.',
+        //description: 'Dati, orbite, scale: un invito costante a pensare in grande.',
       },
       {
-        title: 'Spazio',
-        description: 'Esplorazione e tecnologia: il confine dove la curiosità diventa ingegneria.',
+        title: 'Esplorazione spaziale',
+        //description: 'Esplorazione e tecnologia: il confine dove la curiosità diventa ingegneria.',
       },
     ],
     educationSection: {
       title: 'Istruzione',
-      subtitle: 'Formazione accademica.',
+      subtitle: 'Il mio percorso formativo',
     },
     educationItems: [
       {
@@ -138,7 +138,7 @@ export const content = {
     ],
     languageSection: {
       title: 'Lingua Inglese',
-      subtitle: 'Certificazione e livello.',
+      subtitle: 'Certificazioni',
     },
     languageItems: [
       {
@@ -185,19 +185,19 @@ export const content = {
     hero: {
       eyebrow: 'Data Engineer · Software Engineer',
       quickFactsTitle: 'Quick Facts',
-      note: 'Data, code, vision: from observability to decisions.',
+      note: 'ETL, microservices and ML: from data to decisions.',
       ctaLabel: "Let's talk",
     },
     metrics: [
-      { label: 'Experience', value: '6+ years' },
+      { label: 'Experience', value: '5+ years' },
       { label: 'Industry', value: 'Banking & Data' },
-      { label: 'Focus', value: 'Pipelines & ML' },
+      { label: 'Focus', value: 'Pipelines & Microservies & ML' },
       { label: 'Location', value: 'Bologna, Italy' },
     ],
     bentoTech: [
-      { title: 'Python', subtitle: 'Data & ML' },
+      { title: 'Python', subtitle: 'ETL, microservices, ML' },
       { title: 'PySpark', subtitle: 'ETL at scale' },
-      { title: 'AWS', subtitle: 'Glue · Lambda · S3' },
+      { title: 'AWS', subtitle: 'Glue · Lambda · S3 · Step Functions · RDS Aurora · DynamoDB · Quicksight · Sagemaker' },
       { title: 'SQL', subtitle: 'Modeling & Query' },
     ],
     about: {
@@ -212,7 +212,7 @@ export const content = {
     },
     experienceSection: {
       title: 'Experience',
-      subtitle: 'Since May 2020 at CSE Consorzio Servizi Bancari.',
+      subtitle: 'My job experience',
     },
     experiences: [
       {
@@ -243,7 +243,7 @@ export const content = {
     ],
     skillsSection: {
       title: 'Skills',
-      subtitle: 'Core stack and tools.',
+      subtitle: 'Technical skills',
     },
     skillGroups: [
       {
@@ -273,25 +273,25 @@ export const content = {
     ],
     passionsSection: {
       title: 'Passions',
-      subtitle: 'The personal side that enriches my way of designing.',
+      subtitle: 'Besides computer science',
     },
     passions: [
       {
         title: 'Photography',
-        description: 'I study light and composition: detail quality over quantity.',
+        //description: 'I study light and composition: detail quality over quantity.',
       },
       {
         title: 'Astronomy',
-        description: 'Data, orbits, scales: a constant invitation to think big.',
+        //description: 'Data, orbits, scales: a constant invitation to think big.',
       },
       {
-        title: 'Space',
-        description: 'Exploration and technology: where curiosity becomes engineering.',
+        title: 'Space Exploration',
+        //description: 'Exploration and technology: where curiosity becomes engineering.',
       },
     ],
     educationSection: {
       title: 'Education',
-      subtitle: 'Academic background.',
+      subtitle: 'Academic background',
     },
     educationItems: [
       {
@@ -312,7 +312,7 @@ export const content = {
     ],
     languageSection: {
       title: 'English Language',
-      subtitle: 'Certification and level.',
+      subtitle: 'Certifications',
     },
     languageItems: [
       {
