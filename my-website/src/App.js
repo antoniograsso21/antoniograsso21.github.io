@@ -2,28 +2,18 @@ import './App.css';
 
 function App() {
   const skills = ['Python', 'PySpark', 'AWS', 'Machine Learning', 'Data Engineering'];
-  const tools = ['Spark', 'Airflow', 'Docker', 'Git', 'SQL'];
+  const tools = ['Spark', 'Git', 'SQL'];
   const experienceHighlights = [
     'Progettazione e manutenzione di pipeline dati scalabili.',
     'Integrazione tra sistemi legacy e servizi cloud.',
     'Ottimizzazione performance su job Spark e workflow batch.',
   ];
   const projects = [
-    {
+    /*{
       title: 'Data Platform Banking',
       description: 'Architettura dati per analisi e reporting in ambito bancario.',
       status: 'In arrivo',
-    },
-    {
-      title: 'ML Feature Store',
-      description: 'Standardizzazione e riuso di feature per modelli ML.',
-      status: 'In arrivo',
-    },
-    {
-      title: 'Monitoring Pipelines',
-      description: 'Osservabilità end-to-end su processi ETL/ELT.',
-      status: 'In arrivo',
-    },
+    }*/
   ];
 
   return (
@@ -77,14 +67,12 @@ function App() {
         <section className="section" id="about">
           <div className="section-title">
             <h2>About</h2>
-            <p>Un profilo sintetico e orientato all’impatto.</p>
           </div>
           <div className="card">
             <p>
               Sono un data engineer con esperienza in sistemi mission-critical
               per il settore bancario. Mi occupo di pipeline dati, integrazione
-              tra servizi cloud e soluzioni ML-ready. Mi piace combinare rigore
-              ingegneristico e semplicità operativa.
+              tra servizi cloud e soluzioni ML-ready.
             </p>
           </div>
         </section>
@@ -137,8 +125,7 @@ function App() {
 
         <section className="section" id="projects">
           <div className="section-title">
-            <h2>Projects</h2>
-            <p>Prototipo: aggiungiamo dettagli e link appena vuoi.</p>
+            <h2>Progetti</h2>
           </div>
           <div className="grid three">
             {projects.map((project) => (
@@ -170,20 +157,19 @@ function App() {
         <section className="section" id="contact">
           <div className="section-title">
             <h2>Contatti</h2>
-            <p>Inseriamo i link definitivi quando vuoi.</p>
           </div>
           <div className="card contact">
             <div>
               <p className="muted">Email</p>
-              <a href="mailto:inserisci-email@dominio.com">inserisci-email@dominio.com</a>
+              <a href="mailto:antoniograsso21@gmail.com">antoniograsso21@gmail.com</a>
             </div>
             <div>
               <p className="muted">LinkedIn</p>
-              <a href="https://www.linkedin.com/in/inserisci-profilo">linkedin.com/in/inserisci-profilo</a>
+              <a href="https://www.linkedin.com/in/antoniograsso21">linkedin.com/in/antoniograsso21</a>
             </div>
             <div>
               <p className="muted">GitHub</p>
-              <a href="https://github.com/inserisci-username">github.com/inserisci-username</a>
+              <a href="https://github.com/antoniograsso21">github.com/antoniograsso21</a>
             </div>
           </div>
         </section>
