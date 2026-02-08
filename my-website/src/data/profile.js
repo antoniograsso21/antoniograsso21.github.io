@@ -2,10 +2,10 @@ export const content = {
   it: {
     navLinks: [
       { href: '#about', label: 'About' },
-      { href: '#experience', label: 'Experience' },
-      { href: '#skills', label: 'Skills' },
+      { href: '#experience', label: 'Esperienza' },
+      { href: '#skills', label: 'Competenze' },
+      { href: '#language', label: 'Lingue' },
       { href: '#passions', label: 'Passioni' },
-      { href: '#language', label: 'Inglese' },
       { href: '#contact', label: 'Contatti' },
     ],
     hero: {
@@ -97,24 +97,6 @@ export const content = {
         items: ['Windows', 'Linux'],
       },
     ],
-    passionsSection: {
-      title: 'Passioni',
-      subtitle: "Oltre l'informatica",
-    },
-    passions: [
-      {
-        title: 'Fotografia',
-        //description: 'Studio luce e composizione: qualità dei dettagli prima della quantità.',
-      },
-      {
-        title: 'Astronomia',
-        //description: 'Dati, orbite, scale: un invito costante a pensare in grande.',
-      },
-      {
-        title: 'Esplorazione spaziale',
-        //description: 'Esplorazione e tecnologia: il confine dove la curiosità diventa ingegneria.',
-      },
-    ],
     educationSection: {
       title: 'Istruzione',
       subtitle: 'Il mio percorso formativo',
@@ -147,9 +129,27 @@ export const content = {
         bullets: ['Punteggio: 7.5 – Livello C1'],
       },
     ],
+    passionsSection: {
+      title: 'Passioni',
+      subtitle: "Oltre l'informatica",
+    },
+    passions: [
+      {
+        title: 'Fotografia',
+        //description: 'Studio luce e composizione: qualità dei dettagli prima della quantità.',
+      },
+      {
+        title: 'Astronomia',
+        //description: 'Dati, orbite, scale: un invito costante a pensare in grande.',
+      },
+      {
+        title: 'Esplorazione spaziale',
+        //description: 'Esplorazione e tecnologia: il confine dove la curiosità diventa ingegneria.',
+      },
+    ],
     contactSection: {
       title: 'Contatti',
-      subtitle: 'Disponibile a nuove sfide e collaborazioni.',
+      subtitle: 'Disponibile a nuove sfide e collaborazioni',
     },
     contacts: [
       {
@@ -178,8 +178,8 @@ export const content = {
       { href: '#about', label: 'About' },
       { href: '#experience', label: 'Experience' },
       { href: '#skills', label: 'Skills' },
+      { href: '#language', label: 'Languages' },
       { href: '#passions', label: 'Passions' },
-      { href: '#language', label: 'English' },
       { href: '#contact', label: 'Contact' },
     ],
     hero: {
@@ -271,24 +271,6 @@ export const content = {
         items: ['Windows', 'Linux'],
       },
     ],
-    passionsSection: {
-      title: 'Passions',
-      subtitle: 'Besides computer science',
-    },
-    passions: [
-      {
-        title: 'Photography',
-        //description: 'I study light and composition: detail quality over quantity.',
-      },
-      {
-        title: 'Astronomy',
-        //description: 'Data, orbits, scales: a constant invitation to think big.',
-      },
-      {
-        title: 'Space Exploration',
-        //description: 'Exploration and technology: where curiosity becomes engineering.',
-      },
-    ],
     educationSection: {
       title: 'Education',
       subtitle: 'Academic background',
@@ -321,9 +303,27 @@ export const content = {
         bullets: ['Score: 7.5 – Level C1'],
       },
     ],
+    passionsSection: {
+      title: 'Passions',
+      subtitle: 'Besides computer science',
+    },
+    passions: [
+      {
+        title: 'Photography',
+        //description: 'I study light and composition: detail quality over quantity.',
+      },
+      {
+        title: 'Astronomy',
+        //description: 'Data, orbits, scales: a constant invitation to think big.',
+      },
+      {
+        title: 'Space Exploration',
+        //description: 'Exploration and technology: where curiosity becomes engineering.',
+      },
+    ],
     contactSection: {
       title: 'Contact',
-      subtitle: 'Available for new challenges and collaborations.',
+      subtitle: 'Available for new challenges and collaborations',
     },
     contacts: [
       {
