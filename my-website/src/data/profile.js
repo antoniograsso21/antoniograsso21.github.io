@@ -60,7 +60,7 @@ export const content = {
         title: 'Machine Vision Engineer',
         company: 'Datalogic, Monte San Pietro, Bologna',
         period: '2019 – 2020',
-        employment: 'Full-time',
+        employment: 'Tirocinio',
         bullets: [
           'Sviluppata applicazione di anomaly detection in immagini industriali in Python utilizzando tecniche di machine learning basate su SVM e data augmentation.',
           'Sviluppata applicazione per la segmentazione di immagini in primo piano/sfondo in Python utilizzando la tecnica di depth from focus e algoritmi di clustering.',
@@ -202,7 +202,7 @@ export const content = {
     ],
     about: {
       title: 'About',
-      subtitle: 'Data engineering with a clean aesthetic and pragmatic choices.',
+      subtitle: 'Some information about me',
       paragraphs: [
         'I earned a master’s degree in computer engineering, specializing in big data and artificial intelligence.',
         'I currently work as a data engineer in the banking sector, focusing on ETL pipelines and software applications built with AWS cloud services.',
@@ -234,7 +234,7 @@ export const content = {
         title: 'Machine Vision Engineer',
         company: 'Datalogic, Monte San Pietro, Bologna',
         period: '2019 – 2020',
-        employment: 'Full-time',
+        employment: 'Internship',
         bullets: [
           'Developed an industrial image anomaly detection application in Python using SVM-based machine learning and data augmentation.',
           'Developed a foreground/background image segmentation application in Python using depth from focus and clustering algorithms.',
